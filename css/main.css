@@ -28,8 +28,14 @@ button {
     color: blueviolet;
     background-color: rgb(236, 208, 166);
 }
-
 .button1 {
+    width: 490px;
+    height: 120px;
+    padding: 0.5em 1em;
+    font-size: 2rem;
+    background-color: white;
+}
+.button2 {
     width: 244px;
     height: 120px;
     padding: 0.5em 1em;

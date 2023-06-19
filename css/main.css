@@ -2,12 +2,19 @@ body,
 body * {
     margin: 0;
     padding: 0;
-    vertical-align: top;
     box-sizing: border-box;
+    
+   body {
+    display: flex;
+     flex-direction: column;
+     height: 100vh;
+     justify-content: end;
+   }
 }
-body {
-
-    flex-direction: column;
+container {
+    
+    display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 1rem;
     padding: 1rem;

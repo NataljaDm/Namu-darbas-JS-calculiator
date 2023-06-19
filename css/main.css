@@ -1,0 +1,27 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+body {
+
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+button {
+    padding: 0.5em 1em;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 3rem;
+}

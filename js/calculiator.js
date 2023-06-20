@@ -12,7 +12,9 @@ const eightDom = calcDom.querySelector(`.but8`);
 const nineDom = calcDom.querySelector(`.but9`);
 
 
+
 let counter = 0;
+
 
 oneDom.addEventListener('click', (event) => {
     event.preventDefault();
